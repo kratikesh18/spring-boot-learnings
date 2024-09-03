@@ -18,15 +18,15 @@ public class CruddemoApplication {
 	public CommandLineRunner commandLineRunner(StudentDAO studentDAO){
 		return runnner -> {
 			//createStudent(studentDAO);
-			 createMultipleStudents(studentDAO);
-			//readStudentsData(studentDAO);
+			//createMultipleStudents(studentDAO);
+			readStudentsData(studentDAO);
 		};
 	}
 
 	private void readStudentsData(StudentDAO studentDAO) {
 		//creating the student object
 		System.out.println("Creating the Student object....");
-		Student tempStudent = new Student("Tyrion", "Lannister" , "Dwarf@got.com");
+		Student tempStudent = new Student("Kartikesh", "Pachkawade" , "iloveherpussy@got.com");
 
 		//saving the object
 		System.out.println("Saving the object to the Database");
