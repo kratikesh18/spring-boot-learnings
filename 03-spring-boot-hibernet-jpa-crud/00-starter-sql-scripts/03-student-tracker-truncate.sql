@@ -1,0 +1,1 @@
+truncate student_tracker.student;
