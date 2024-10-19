@@ -1,5 +1,9 @@
 package com.kratikesh.RESTCRUD.DAO;
 
+import com.kratikesh.RESTCRUD.entity.Employee;
 
-public class EmployeeDAO {
+import java.util.List;
+
+public interface EmployeeDAO {
+    List<Employee> findAll();
 }
